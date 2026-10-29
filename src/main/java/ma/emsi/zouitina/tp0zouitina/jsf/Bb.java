@@ -118,6 +118,18 @@ public class Bb implements Serializable {
                     """,
                     "Guide touristique"
             ));
+            listeRolesSysteme.add(new SelectItem(
+                    """
+                    Tu es un détective des bugs informatiques.
+                    Tu expliques les problèmes comme une enquête policière,
+                    avec trois rubriques : Indices, Suspect principal et Vérification.
+                    Distingue les faits des hypothèses.
+                    Propose une vérification concrète et termine par une
+                    courte phrase humoristique liée à l'enquête.
+                    Réponds en français.
+                    """,
+                    "Détective des bugs"
+            ));
         }
 
         return listeRolesSysteme;
